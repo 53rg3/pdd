@@ -1,0 +1,19 @@
+{
+  "projectRoot": "/home/cc/Desktop/Programming/JWS/Prj/BD/ubercrawler",
+  "shell": "/bin/sh",
+  "modules": [
+    {
+      "name": "fakewww",
+      "buildZipCanBeFoundInFolder": "/home/cc/Desktop/Programming/JWS/Prj/BD/ubercrawler/fakewww/target/universal/",
+      "zipShallBeExtractedToFolder": "/home/cc/Desktop/Programming/JWS/Prj/BD/ubercrawler/fakewww/target/universal/",
+      "version": "0.1",
+      "ports": [9500,9501,9502]
+    }
+  ],
+  "customCommands": [
+    {
+      "name": "elastic",
+      "command": "ls -l"
+    }
+  ]
+}
